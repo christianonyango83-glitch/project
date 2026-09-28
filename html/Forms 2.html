@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+</head>
+
+<body>
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>PATIENT REGISTRATION FORM</th>
+    </tr>
+
+    <tr>
+        <td>
+
+            <form action="" method="post" name="registration">
+
+                1. Patient Name:
+                <input type="text" name="Patientname"
+                       value="Enter patient name here" maxlength="30">
+                <br><br>
+
+                2. Age:
+                <input type="number" name="age" maxlength="3">
+                <br><br>
+
+                3. Please select patient gender:
+                <br>
+                <input type="radio" name="patient_gender" value="Male" checked>
+                Male
+
+                <input type="radio" name="patient_gender" value="Female">
+                Female
+                <br><br>
+
+                4. ID Number:
+                <input type="text" name="Id_number"
+                       value="Enter the ID number" maxlength="15">
+                <br><br>
+
+                5. Phone Number:
+                <input type="text" name="phone_number"
+                       value="Enter phone number" maxlength="10">
+                <br><br>
+
+                6. Health Status:
+                <br>
+                <input type="checkbox" name="service" value="health">
+                Health<br>
+
+                <input type="checkbox" name="service" value="Acute illness">
+                Acute illness<br>
+
+                <input type="checkbox" name="service" value="Chronic illness">
+                Chronic illness<br>
+
+                <input type="checkbox" name="service" value="Recovering">
+                Recovering
+                <br><br>
+
+                7. Marital Status:
+                <br>
+                <input type="radio" name="status" value="single" checked>
+                Single
+
+                <input type="radio" name="status" value="Married">
+                Married
+                <br><br>
+
+                8. Next of Kin:
+                <input type="text" name="Next_of_kin"
+                       value="Enter the name here" maxlength="30">
+                <br><br>
+
+                9. Weight:
+                <input type="text" name="Weight"
+                       value="Enter the weight" maxlength="3">
+                <br><br>
+
+                10. Patient ID:
+                <input type="text" name="Patient_Id"
+                       value="Enter patient ID here" maxlength="30">
+                <br><br>
+
+                <input type="submit" value="Register Patient">
+                <input type="reset" value="Clear">
+
+            </form>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
